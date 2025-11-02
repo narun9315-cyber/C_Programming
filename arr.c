@@ -1,23 +1,16 @@
-#include <stdio.h>
-
-// Function that calculates factorial iteratively using 3 parameters
-int factorial(int n, int fact, int i) {
-    fact = 1; // initialize factorial
-    for(i = 1; i <= n; i++) {
-        fact = fact * i;
+#include<stdio.h>
+int factorial(int,int,int);
+int main(){
+    int a, fact=1;
+    printf("Enter a number:");
+    scanf("%d",&a);
+    for(int i=1; i<=a; i++){
+       // printf("%d",i);
+        fact=fact*i;
     }
-    return fact;
-}
-
-int main() {
-    int a, i, fact;
-
-    printf("Enter a number: ");
-    scanf("%d", &a);
-
-    fact = factorial(a, fact, i); // call the function
-
-    printf("Factorial: %d\n", fact);
-
+    printf("Factorial:%d",fact);
     return 0;
+}
+int factorial(int i,int a,int fact){
+    return fact;
 }
