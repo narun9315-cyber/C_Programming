@@ -10,8 +10,7 @@ int factorial(int n, int fact, int i) {
 }
 
 int main() {
-    int a, i;
-    int fact;
+    int a, i, fact;
 
     printf("Enter a number: ");
     scanf("%d", &a);
