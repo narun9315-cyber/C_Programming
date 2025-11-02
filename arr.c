@@ -1,7 +1,8 @@
 #include<stdio.h>
 int factorial(int,int,int);
 int main(){
-    int a, fact=1;
+    int a ;
+    int fact=1;
     printf("Enter a number:");
     scanf("%d",&a);
     for(int i=1; i<=a; i++){
